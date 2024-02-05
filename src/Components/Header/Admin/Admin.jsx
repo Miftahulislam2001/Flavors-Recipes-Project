@@ -3,7 +3,7 @@ import Home from '../../../Pages/Home/Home';
 
 const Admin = () => {
     return (
-        <div>
+        <div className='bg-black'>
             <Home/>
         </div>
     );
