@@ -1,10 +1,15 @@
 import React from 'react';
-import Home from '../../../Pages/Home/Home';
+import { Outlet } from 'react-router-dom';
+import Footer from '../Footer/Footer';
+import Navbar from '../Header/Navbar';
+
 
 const Admin = () => {
     return (
         <div className='bg-black'>
-            <Home/>
+           <Navbar/>
+           <Outlet/>
+           <Footer/>
         </div>
     );
 };
